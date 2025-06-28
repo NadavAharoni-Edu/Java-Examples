@@ -3,5 +3,11 @@ public class MyInteger {
     {
         i = _i;
     }
+
+    public int intValue()
+    {
+        return i;
+    }
+
     public int i;
 }
