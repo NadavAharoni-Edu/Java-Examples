@@ -10,8 +10,7 @@ public class Main {
         increment(j);
         System.out.println("j = " + j);
 
-        MyInteger j2 = new MyInteger();
-        j2.i = 8;
+        MyInteger j2 = new MyInteger(8);
         increment(j2);
         System.out.println("j2 = " + j2.i);
 
