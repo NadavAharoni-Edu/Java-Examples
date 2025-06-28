@@ -28,7 +28,7 @@ public class Main {
 
     public static void increment(MyInteger i)
     {
-        i.i++;
+        i.setValue(i.intValue()+1);
     }
 
 }

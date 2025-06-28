@@ -9,5 +9,10 @@ public class MyInteger {
         return i;
     }
 
-    public int i;
+    public void setValue(int _i)
+    {
+        i = -i;
+    }
+
+    private int i;
 }
