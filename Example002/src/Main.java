@@ -34,6 +34,3 @@ public class Main {
 
 }
 
-class MyInteger {
-    public int i;
-}
